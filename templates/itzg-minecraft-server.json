@@ -4,25 +4,28 @@
   "parameters": {
     "serverName": {
       "type": "string",
+      "defaultValue": "phynet-mc,
       "metadata": {
         "description": "The name of your minecraft server. Must be unique within Azure"
       }
     },
     "minecraftVersion": {
       "type": "string",
-      "defaultValue": "1.16.2",
+      "defaultValue": "1.19.3",
       "metadata": {
         "description": "The version that'll be used by your server"
       }
     },
     "serverOperators": {
       "type": "string",
+      "defaultValue": "RecursiveRogue",
       "metadata": {
         "description": "The server operators usernames, comma-separated."
       }
     },
     "storageAccountName": {
       "type": "string",
+      "defaultValue": "srsteambuilding",
       "metadata": {
         "description": "The name of the storage account that'll be used to store the server files. Must be unique within Azure and contain no special characters"
       }
