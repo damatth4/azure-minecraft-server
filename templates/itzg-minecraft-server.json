@@ -4,7 +4,7 @@
   "parameters": {
     "serverName": {
       "type": "string",
-      "defaultValue": "phynet-mc,
+      "defaultValue": "phynet-mc",
       "metadata": {
         "description": "The name of your minecraft server. Must be unique within Azure"
       }
