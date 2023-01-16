@@ -80,6 +80,10 @@
                 {
                   "protocol": "TCP",
                   "port": 25565
+                },
+                {
+                  "protocol": "UDP",
+                  "port": 19132
                 }
               ],
               "environmentVariables": [
@@ -126,6 +130,10 @@
             {
               "protocol": "TCP",
               "port": 25565
+            },
+            {
+                  "protocol": "UDP",
+                  "port": 19132
             }
           ],
           "type": "Public",
