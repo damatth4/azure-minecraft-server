@@ -4,7 +4,7 @@
   "parameters": {
     "serverName": {
       "type": "string",
-      "defaultValue": "phynet-mc",
+      "defaultValue": "phynet-mc-paper",
       "metadata": {
         "description": "The name of your minecraft server. Must be unique within Azure"
       }
@@ -106,8 +106,8 @@
               ],
               "resources": {
                 "requests": {
-                  "memoryInGB": 1.5,
-                  "cpu": 1
+                  "memoryInGB": 8,
+                  "cpu": 4
                 }
               },
               "volumeMounts": [
